@@ -1,0 +1,88 @@
+div#game-board-container {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+}
+
+.block {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #534343;
+  box-sizing: border-box;
+}
+
+
+.options-container {
+  width: 450px;
+  height: 50px;
+  margin: 30px 0;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+
+.ship {
+  transition: all .3s;
+  height: 20px;
+  margin: 3px;
+}
+
+.fiveLevelShip {
+  background: purple;
+}
+
+.fiveLevelShipPreview {
+  width: 100px;
+}
+
+.fourLevelShip {
+  background: red;
+}
+
+.fourLevelShipPreview {
+  width: 80px;
+}
+
+.threeLevelShip {
+  background: green;
+}
+
+.threeLevelShipPreview {
+  width: 60px;
+}
+
+.twoLevelShip {
+  background: brown;
+}
+.twoLevelShiPreview {
+  width: 40px;
+}
+
+.oneLevelShip{
+  background: blue;
+}
+.oneLevelShipPreview {
+  width: 20px;
+}
+
+.hover {
+  background: #000000;
+}
+
+.boom {
+  background: red;
+}
+
+.empty {
+  background: gray;
+}

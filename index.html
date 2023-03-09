@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BattleShips</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="game-info">
+  <p>Ход: <span id="turn-display"></span></p>
+  <p>Инфо: <span id="info"></span></p>
+</div>
+
+<div id="game-board-container">
+
+</div>
+
+<div class="options-container">
+  <div id="4" class="ship fiveLevelShip fiveLevelShipPreview" draggable="true"></div>
+  <div id="3" class="ship fourLevelShip fourLevelShipPreview" draggable="true"></div>
+  <div id="2" class="ship threeLevelShip threeLevelShipPreview" draggable="true"></div>
+  <div id="1" class="ship twoLevelShip twoLevelShiPreview" draggable="true"></div>
+  <div id="0" class="ship oneLevelShip oneLevelShipPreview" draggable="true"></div>
+</div>
+
+<button id="flip-button">Развернуть</button>
+<button id="start-button">Старт</button>
+</body>
+
+<script src="app.js"></script>
+
+</html>
